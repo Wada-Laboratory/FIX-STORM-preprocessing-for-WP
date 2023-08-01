@@ -76,7 +76,8 @@ environmental.pressure_coefficients()
 
 #%%
 
-monthsall=[[6,7,8,9,10,11],[6,7,8,9,10,11],[4,5,6,9,10,11],[1,2,3,4,11,12],[1,2,3,4,11,12],[5,6,7,8,9,10,11]]
-for basin_index in range(0,6):
-    for month in monthsall[basin_index]:
-        genesis_matrix.Makegrid(basin_index,month)
+### 一旦コメントアウト
+# monthsall=[[6,7,8,9,10,11],[6,7,8,9,10,11],[4,5,6,9,10,11],[1,2,3,4,11,12],[1,2,3,4,11,12],[5,6,7,8,9,10,11]]
+# for basin_index in range(0,6):
+#     for month in monthsall[basin_index]:
+#         genesis_matrix.Makegrid(basin_index,month)

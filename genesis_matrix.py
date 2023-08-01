@@ -16,7 +16,7 @@ Copyright (C) 2020 Nadia Bloemendaal. All versions released under the GNU Genera
 
 import numpy as np
 import pandas as pd
-from mpl_toolkits.basemap import maskoceans
+# from mpl_toolkits.basemap import maskoceans
 from scipy.interpolate import griddata
 import preprocessing
 import os
